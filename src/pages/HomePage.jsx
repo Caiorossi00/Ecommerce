@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../components/Header/Header";
+import Main from "../components/Main/Main";
 
 const HomePage = () => {
   return (
     <div>
       <Header />
-      <div>Olá</div>
-      <Footer />
+      <Main />
     </div>
   );
 };

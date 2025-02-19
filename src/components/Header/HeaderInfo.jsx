@@ -1,9 +1,9 @@
 import React from "react";
-import { storeConfig } from "../config/config";
+import { storeConfig } from "../../config/config";
 
-const Header = () => {
+const HeaderInfo = () => {
   return (
-    <header>
+    <div>
       <h1>{storeConfig.name}</h1>
       <p>{storeConfig.description}</p>
       <div>
@@ -22,8 +22,8 @@ const Header = () => {
           Instagram
         </a>
       </div>
-    </header>
+    </div>
   );
 };
 
-export default Header;
+export default HeaderInfo;
